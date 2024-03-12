@@ -1,5 +1,5 @@
 % In this code you have to click above the figure
-set(gcf,'currentchar',' ') % empty current character 
+set(gcf,'CurrentCharacter',' ') % empty current character 
 while true
     pos = get(0, 'PointerLocation');
     x = pos(1);
