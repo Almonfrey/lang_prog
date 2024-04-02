@@ -39,7 +39,7 @@ void calc_rect_perim_area() {
     width = (float *)malloc(sizeof(float));
 
     // Calculates perimeter and area
-    printf("Enter the length and width of the rectangle - length width:");
+    printf("Enter the length and width of the rectangle - length width: ");
     scanf("%f %f", length, width);
     printf("Perimeter of the rectangle: %.2f\n", 2 * (*length + *width));
     printf("Area of the rectangle: %.2f\n", (*length) * (*width));
@@ -72,7 +72,7 @@ int main() {
 
         if (kbhit()) {
             ch = getch();
-            if (ch == 'c')
+            if (ch == 27)
                 break;
         }
     }

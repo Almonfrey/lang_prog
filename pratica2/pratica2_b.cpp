@@ -60,7 +60,7 @@ int main() {
 
         if (_kbhit()) {
             ch = _getch();
-            if (ch == 'c')
+            if (ch == 27)
                 break;
         }
     }

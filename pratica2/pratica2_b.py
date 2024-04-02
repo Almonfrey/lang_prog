@@ -32,5 +32,5 @@ if __name__ == "__main__":
         time.sleep(1)  # Adjust delay as needed
 
         if msvcrt.kbhit():
-            if msvcrt.getch() == b'c':
+            if msvcrt.getch() == b'\x1b':
                 break

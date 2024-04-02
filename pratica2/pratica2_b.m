@@ -23,7 +23,7 @@ for i = 1:Inf
     while toc<1
         ch = get(gcf,'CurrentCharacter');
     end
-    if(ch=='c')
+    if(ch==27)
         break
     end
 end
