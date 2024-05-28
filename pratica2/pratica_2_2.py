@@ -1,3 +1,9 @@
+# Program: Geometric computations
+# Author: Douglas Almonfrey
+# Date: April 02, 2024
+# Description: Computes some geometric aspects of rectangles and circles
+# License: CC BY
+
 import msvcrt
 import time
 import itertools

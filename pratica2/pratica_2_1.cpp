@@ -2,7 +2,7 @@
 Program: Geometric computations
 Author: Douglas Almonfrey
 Date: April 02, 2024
-Description: Computes some geometric aspects of rectangles and circles
+Description: Analizes mouse's quadrant
 License: CC BY
 */
 
